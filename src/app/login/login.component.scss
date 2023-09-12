@@ -1,0 +1,48 @@
+:host {
+    .mat-mdc-card {
+        margin: 90px auto;
+        width: 50%;
+
+        @media screen and (max-width: 414px) {
+            width: 91%;
+        }
+
+        .mat-mdc-card-header {
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .mat-mdc-form-field {
+            width: 100% !important;
+            padding: 5px;
+
+            mat-icon {
+                position: absolute;
+                right: 5px;
+                top: 15px;
+            }
+        }
+
+        .mdc-card__actions {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            align-items: initial;
+
+            button {
+                margin-bottom: 12px;
+            }
+
+            .example-spacer {
+                flex: 1 1 auto;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
